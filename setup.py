@@ -8,7 +8,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Mohammed Rizwan Kumte",
     author_email="NA20B040@smail.iitm.ac.in",
-    url="https://github.com/yourusername/your_project",
+    url="https://github.com/M-D-R-K/quick-auditing",
     packages=find_packages(),  # Automatically find package directories
     classifiers=[
         "Programming Language :: Python :: 3",
