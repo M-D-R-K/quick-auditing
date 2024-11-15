@@ -1,3 +1,17 @@
+Metadata-Version: 2.1
+Name: blackboxaudit
+Version: 0.1.0
+Summary: A simple package for black box auditing. WIP
+Home-page: https://github.com/M-D-R-K/quick-auditing
+Author: Mohammed Rizwan Kumte
+Author-email: NA20B040@smail.iitm.ac.in
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # Quick Auditing
 This repository provides a set of tools for privacy auditing and differential privacy evaluation in machine learning models. The main components include functions for creating canaries (synthetic data points) to audit privacy leakage, as well as utilities to measure model performance and compute empirical privacy bounds. This project is based upon "[Privacy Auditing in One (1) training run](https://arxiv.org/abs/2305.08846)" by thomas et al.
 The project is still a work in progress and currently only Black Box Auditing with random canaries. Effort is underway to implement additional types of canaries as well as white box auditing procedure.

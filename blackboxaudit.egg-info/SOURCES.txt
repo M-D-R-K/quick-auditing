@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+blackboxaudit/__init__.py
+blackboxaudit/audit.py
+blackboxaudit/utils.py
+blackboxaudit.egg-info/PKG-INFO
+blackboxaudit.egg-info/SOURCES.txt
+blackboxaudit.egg-info/dependency_links.txt
+blackboxaudit.egg-info/requires.txt
+blackboxaudit.egg-info/top_level.txt
