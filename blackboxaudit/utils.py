@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import Dataset, TensorDataset
 from torch.nn import Module
-from typing import Optional, Tuple, List, Union, Callable
+from typing import Optional, Tuple, List, Union, Callable, Any
 
 from scipy.stats import binom
 from scipy.optimize import brentq

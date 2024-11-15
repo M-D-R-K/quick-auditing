@@ -1,5 +1,5 @@
 # audit Documentation
-he `audit.py` file provides functionality to audit the training procedure of a model by recording initial and final losses on the canary dataset based upon the black box auditing method used by Thomas et al. in "Privacy Auditing in One Training Run". 
+The `audit.py` file provides functionality to audit the training procedure of a model by recording initial and final losses on the canary dataset based upon the black box auditing method used by Thomas et al. in "Privacy Auditing in One Training Run". 
 
 # Table of Contents
 
@@ -21,7 +21,7 @@ he `audit.py` file provides functionality to audit the training procedure of a m
 `epochs : int  =  5,`\
 `) -> Tuple[List[float], List[float]]`
 
-Audits the training procedure by recording initial and final losses using a user-defined testing function before and after training. This function is designed to help measure changes in model performance or behavior resulting from training.
+Audits the training procedure by recording initial and final losses using a user-defined testing function before and after training.
 
 *
 #### Parameters:

@@ -81,7 +81,7 @@ Estimates the empirical epsilon for a differential privacy mechanism using the n
     `get_e_hat: Callable[[int, int], float]`\
 `) -> float`
 
-Computes the maximum estimated epsilon (`e_hat`) based on the initial and final losses, inclusion vector `S`, and the provided `get_e_hat` function.
+Computes the maximum estimated epsilon (`e_hat`) based on the initial and final losses, inclusion vector `S`, and the provided `get_e_hat` function. The search space is a bit rough and unoptimized at the moment.
 
 **Parameters:**
 
